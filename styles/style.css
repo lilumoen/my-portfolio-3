@@ -5,4 +5,12 @@
 h1,
 h2,
 h3 {
-  font-family: "Poppins
+  font-family: "Poppins", serif;
+  font-weight: normal;
+  font-style: normal;
+  color: var(---primary-color);
+}
+
+a {
+  color: var(---primary-color);
+}
