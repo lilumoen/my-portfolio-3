@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0.89) 0%,
+    rgba(45, 57, 46, 0.89) 0%,
     rgba(97, 132, 126, 0.416) 100%
   );
   font-family: var(---default-font-family);
@@ -9,14 +9,13 @@ body {
 :root {
   ---primary-color: rgb(153, 218, 218);
   ---background-color: rgb(255, 255, 255);
-  ---default-font-family: font-family: "Poppins", serif;
+  ---default-font-family: "Poppins", serif;
 }
 .container-fluid {
   display: block;
   margin: 0 auto;
   background: var(---background-color);
-  text-align: start;
-  width: 900px;
+  width: 800px;
   margin-top: 30px;
 }
 
@@ -26,7 +25,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", serif;  font-weight: normal;
+  font-family: var(---default-font-family);
+  font-weight: normal;
   font-style: normal;
   color: var(---primary-color);
   line-height: 1.7;
@@ -43,7 +43,10 @@ h3 {
   font-size: 20px;
 }
 img {
-  max-width: 450px;
+  max-width: 320px;
+  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
 }
 .primary-button {
   margin-top: 15px;
@@ -55,15 +58,20 @@ img {
   border: 1px solid var(---primary-color);
   color: var(---primary-color);
 }
-@media (max-width: 576px) {
-  .container-fluid {
-    max-width: fit-content;
-  }
-}
+
 a {
   color: var(---primary-color);
   border: 1px solid rgb(252, 249, 249);
 
   border-radius: 200px 100px 150px;
   padding: 5px;
+}
+
+@media (max-width: 576px) {
+  body {
+    width: 2px;
+  }
+  .container-fluid {
+    max-width: 400px;
+  }
 }
