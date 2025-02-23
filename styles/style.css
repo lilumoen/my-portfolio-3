@@ -1,13 +1,8 @@
-body {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-
-  background-repeat: no-repeat;
+:root {
+  ---primary-color: rgba(1, 8, 15, 0.726);
 }
+
 h1,
 h2,
 h3 {
-  font-family: "Poppins", serif;
-  font-weight: normal;
-  font-style: normal;
-  color: aliceblue;
-}
+  font-family: "Poppins
