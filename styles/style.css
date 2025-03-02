@@ -118,4 +118,86 @@ h4 {
 
 .github-link,
 .netlify-link {
-  
+  color: var(---fourth-color);
+}
+.content-container {
+  padding: 100px 20px;
+  text-align: center;
+}
+.content-container h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.content-container h2 {
+  font-size: 15px;
+}
+.content-container p {
+  line-height: 2;
+}
+.content-container img {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.content {
+  margin-top: 80px;
+}
+.content h4 {
+  line-height: 2;
+  font-size: 25px;
+  margin: 20px 0 0;
+}
+
+@media (max-width: 600px) {
+  .body {
+    max-width: 150%;
+    margin-left: 0 auto;
+  }
+  .hero {
+    padding: 80px 30px;
+  }
+
+  .content {
+    margin-top: 0;
+    padding: 0;
+  }
+  p {
+    font-size: 13px;
+  }
+  .content-container img {
+    margin-top: 40px;
+  }
+  .content-container {
+    font-size: 40px;
+  }
+  h1,
+  h4 {
+    font-size: 40px;
+    margin-top: 0;
+    line-height: 2;
+  }
+  .project-buttons {
+    margin-bottom: 0px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+  .container-fluid,
+  .project-apps {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 0 auto;
+    padding: 20px 2px;
+  }
+
+  h4 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  .featured-projects {
+    font-size: 20px;
+  }
+}
