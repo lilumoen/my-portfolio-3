@@ -148,6 +148,11 @@ h4 {
   margin: 20px 0 0;
   font-weight: 600;
 }
+.github-lilu a,
+.insta-lilu a {
+  text-decoration: none;
+  color: var(---fourth-color);
+}
 
 @media (max-width: 600px) {
   .body {
