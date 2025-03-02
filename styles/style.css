@@ -70,9 +70,9 @@ h4 {
   border: 1px solid var(---secondary-color);
 }
 
-span {
+.featured-projects {
   font-size: 25px;
-  color: #000;
+  color: var(---darker-color);
   text-align: center;
   justify-content: center;
 }
@@ -120,26 +120,26 @@ span {
 .netlify-link {
   color: var(---fourth-color);
 }
-.about-section {
+.content-container {
   padding: 100px 20px;
   text-align: center;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 40px;
   line-height: 1.5;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 15px;
 }
-.about-section p {
+.content-container p {
   line-height: 2;
 }
-.about-section img {
+.content-container img {
   width: 70%;
   margin-top: 30px;
 }
 
-.about-section-content {
+.content {
   margin-top: 80px;
 }
 
@@ -152,14 +152,14 @@ span {
     padding: 80px 30px;
   }
 
-  .about-section-content {
+  .content {
     margin-top: 0;
     padding: 0;
   }
-  .about-section img {
+  .content-container img {
     margin-top: 40px;
   }
-  .about-section h1 {
+  .content-container {
     font-size: 40px;
   }
   h1,
