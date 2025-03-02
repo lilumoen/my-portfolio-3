@@ -129,4 +129,172 @@ h6 {
   border: 1px solid var(---primary-color);
   padding: 15px 20px;
 }
-.project-butto
+.project-buttons:hover {
+  background: var(---fourth-color);
+  color: var(---primary-color);
+}
+
+.contact-box {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 550px;
+  background: var(---lightest-color);
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.icon-links {
+  color: var(---secondary-color);
+  font-size: 25px;
+  border: 1px solid rgb(252, 249, 249);
+  border-radius: 20px 340px 180px;
+  padding: 12px;
+  margin: 3px;
+  justify-content: space-between;
+}
+.socials-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background: var(---primary-color);
+}
+.icon-links:hover {
+  color: var(---primary-color);
+  background: var(---secondary-color);
+  transition: all 200ms ease-in-out;
+}
+.website-wrapper span {
+  color: var(---darker-color);
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.github-link,
+.netlify-link {
+  color: var(---fourth-color);
+}
+.content-container {
+  padding: 50px 20px;
+  text-align: center;
+}
+.content-container h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.content-container h2 {
+  font-size: 15px;
+}
+.content-container p {
+  line-height: 2;
+}
+.content-container img {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.content {
+  margin-top: 80px;
+}
+.content h4 {
+  line-height: 2;
+  font-size: 25px;
+  margin: 20px 0 0;
+  font-weight: 600;
+}
+.github-lilu a,
+.insta-lilu a {
+  text-decoration: none;
+  color: var(---fourth-color);
+}
+
+.signature-logo {
+  max-width: 10%;
+}
+
+@media (max-width: 600px) {
+  .body {
+    max-width: 150%;
+    margin-left: 0 auto;
+  }
+
+  nav {
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+
+  nav li {
+    margin-left: 5px;
+  }
+  .logo {
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  nav a {
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 30px;
+  }
+
+  .content {
+    margin-top: 0;
+    padding: 0;
+  }
+  p {
+    font-size: 13px;
+  }
+  .content-container img {
+    margin-top: 40px;
+  }
+  .content-container {
+    font-size: 40px;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  h1,
+  h4 {
+    font-size: 40px;
+    margin-top: 0;
+    line-height: 2;
+  }
+  .project-buttons {
+    margin-bottom: 0px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+  .container-fluid,
+  .project-apps {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 0 auto;
+    padding: 20px 2px;
+  }
+  .contact-box {
+    max-width: 400px;
+    line-height: 2;
+  }
+
+  h4 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  .featured-projects {
+    font-size: 20px;
+  }
+  .signature-logo {
+    max-width: 30%;
+  }
+
+  .socials-icon {
+    padding: 40px;
+  }
+}
