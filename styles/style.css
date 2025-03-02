@@ -9,6 +9,43 @@ body {
   ---darker-color: rgb(22, 41, 39);
   ---default-font-family: "Poppins", serif;
 }
+.logo {
+  max-width: 120px;
+  max-height: 120px;
+}
+nav {
+  padding: 0px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(---secondary-color);
+}
+
+nav a:hover {
+  color: var(---primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav ul {
+  padding: 0;
+  padding-top: 18px;
+  margin: 0;
+}
+
+nav li.active a {
+  color: var(---primary-color);
+}
+nav li.active a:hover {
+  color: var(---secondary-color);
+}
+
 .hero {
   text-align: center;
   background: var(---primary-color);
@@ -154,11 +191,33 @@ h4 {
   color: var(---fourth-color);
 }
 
+.signature-logo {
+  max-width: 10%;
+}
+
 @media (max-width: 600px) {
   .body {
     max-width: 150%;
     margin-left: 0 auto;
   }
+
+  nav {
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+
+  nav li {
+    margin-left: 5px;
+  }
+  .logo {
+    padding-left: 20px;
+    margin-top: 7px;
+  }
+  nav a {
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
   .hero {
     padding: 80px 30px;
   }
@@ -208,5 +267,8 @@ h4 {
   }
   .featured-projects {
     font-size: 20px;
+  }
+  .signature-logo {
+    max-width: 30%;
   }
 }
