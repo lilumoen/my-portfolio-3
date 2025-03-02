@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   display: block;
 }
+
 h1,
 h2,
 h3,
@@ -119,6 +120,28 @@ span {
 .netlify-link {
   color: var(---fourth-color);
 }
+.about-section {
+  padding: 100px 20px;
+  text-align: center;
+}
+.about-section h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+.about-section h2 {
+  font-size: 15px;
+}
+.about-section p {
+  line-height: 2;
+}
+.about-section img {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.about-section-content {
+  margin-top: 80px;
+}
 
 @media (max-width: 600px) {
   .body {
@@ -127,6 +150,17 @@ span {
   }
   .hero {
     padding: 80px 30px;
+  }
+
+  .about-section-content {
+    margin-top: 0;
+    padding: 0;
+  }
+  .about-section img {
+    margin-top: 40px;
+  }
+  .about-section h1 {
+    font-size: 40px;
   }
   h1,
   h4 {
