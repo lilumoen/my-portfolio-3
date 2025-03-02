@@ -3,9 +3,10 @@ body {
 }
 :root {
   ---primary-color: rgb(213, 230, 230);
-  ---secondary-color: rgb(144, 184, 184);
+  ---secondary-color: rgb(47, 104, 104);
   ---third-color: rgb(255, 255, 255);
-  ---background-color: rgb(255, 255, 255);
+  ---fourth-color: rgb(84, 127, 127);
+  ---darker-color: rgb(22, 41, 39);
   ---default-font-family: "Poppins", serif;
 }
 .hero {
@@ -18,7 +19,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: var(---default-font-family);
@@ -47,6 +47,11 @@ h3 {
 h4 {
   font-size: 35px;
   font-weight: 500;
+  font-family: var(---default-font-family);
+  font-weight: normal;
+  font-style: normal;
+  color: var(---darker-color);
+  line-height: 1.5;
 }
 
 .primary-button {
@@ -59,7 +64,7 @@ h4 {
   box-shadow: 1px 1px 12px rgba(248, 250, 249, 0.314);
 }
 .primary-button:hover {
-  background: var(---secondary-color);
+  background: var(---fourth-color);
   color: var(---primary-color);
   border: 1px solid var(---secondary-color);
 }
@@ -79,19 +84,40 @@ span {
 .project-buttons {
   background: #fff;
   color: var(---secondary-color);
-  border: 1px solid var(---secondary-color);
+  border: 1px solid var(---primary-color);
   padding: 15px 20px;
 }
 .project-buttons:hover {
-  background: var(---secondary-color);
-  color: #fff;
-}
-a {
+  background: var(---fourth-color);
   color: var(---primary-color);
+}
+.icon-links {
+  color: var(---secondary-color);
+  font-size: 25px;
   border: 1px solid rgb(252, 249, 249);
+  border-radius: 20px 340px 180px;
+  padding: 12px;
+  margin: 3px;
+  justify-content: space-between;
+}
+.socials-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 150px 20px;
+  background: var(---primary-color);
+}
 
-  border-radius: 200px 100px 150px;
-  padding: 5px;
+.website-wrapper span {
+  color: var(---darker-color);
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+}
+
+.github-link,
+.netlify-link {
+  color: var(---fourth-color);
 }
 
 @media (max-width: 600px) {
