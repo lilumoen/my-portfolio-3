@@ -147,8 +147,8 @@ h6 {
   color: var(---secondary-color);
   font-size: 25px;
   border: 1px solid rgb(252, 249, 249);
-  border-radius: 20px 340px 180px;
-  padding: 12px;
+  border-radius: 80px;
+  padding: 10px 16px;
   margin: 3px;
   justify-content: space-between;
 }
@@ -156,7 +156,7 @@ h6 {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 90px 20px;
   background: var(---primary-color);
 }
 .icon-links:hover {
@@ -233,7 +233,7 @@ h6 {
   }
   nav a {
     padding-right: 20px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .hero {
@@ -279,8 +279,8 @@ h6 {
     padding: 20px 2px;
   }
   .contact-box {
-    max-width: 400px;
-    line-height: 2;
+    max-width: 350px;
+    line-height: 1;
   }
 
   h4 {
@@ -295,6 +295,9 @@ h6 {
   }
 
   .socials-icon {
-    padding: 40px;
+    padding: 70px;
+  }
+  .icon-links {
+    font-size: 18px;
   }
 }
