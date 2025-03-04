@@ -242,7 +242,9 @@ h6 {
   .hero {
     padding: 30px;
   }
-
+  .primary-button {
+    font-size: 12px;
+  }
   .content {
     margin-top: 0;
     padding: 0;
@@ -291,9 +293,9 @@ h6 {
     text-align: center;
     display: block;
     margin: 0 auto;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 0 auto;
-    padding: 20px 2px;
+    padding: 2px 2px;
   }
   .contact-box {
     max-width: 350px;
@@ -301,7 +303,9 @@ h6 {
   }
 
   .featured-projects {
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .signature-logo {
     max-width: 30%;
